@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 import { retrieveContext } from "@/lib/rag";
 import { geolocation } from "@vercel/functions";
 import {
