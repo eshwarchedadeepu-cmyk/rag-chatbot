@@ -174,8 +174,7 @@ export async function POST(request: Request) {
 
         const result = streamText({
           model: getLanguageModel(selectedChatModel),
-          system: `You are a helpful assistant. Use the provided context to answer the user's question.\n\nContext:\n${contextText}`,
-
+          system: "You are a helpful assistant. Use the provided context to answer the user's question.",
           messages: await convertToModelMessages(uiMessages),
           stopWhen: stepCountIs(5),
           experimental_activeTools: isReasoningModel
