@@ -1,0 +1,3 @@
+RAG stands for Retrieval Augmented Generation.
+It combines document retrieval with LLMs.
+RAG is useful for building chatbots that answer from custom documents.
