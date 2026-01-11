@@ -43,11 +43,6 @@ export function useChatVisibility({
     setLocalVisibility(updatedVisibilityType);
     mutate(unstable_serialize(getChatHistoryPaginationKey));
 
-    updateChatVisibility({
-      chatId,
-      visibility: updatedVisibilityType,
-    });
-  };
 
   return { visibilityType, setVisibilityType };
 }
