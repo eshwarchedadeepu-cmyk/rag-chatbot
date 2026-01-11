@@ -1,7 +1,5 @@
 import Form from "next/form";
 
-import Form from "next/form";
-
 export const SignOutForm = () => {
   return (
     <Form
