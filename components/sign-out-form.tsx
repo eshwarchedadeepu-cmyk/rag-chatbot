@@ -1,6 +1,19 @@
 import Form from "next/form";
 
-import { signOut } from "@/app/(auth)/auth";
+import Form from "next/form";
+
+export const SignOutForm = () => {
+  return (
+    <Form
+      action={() => {
+        alert("Auth disabled for demo");
+      }}
+    >
+      <button type="submit">Sign out</button>
+    </Form>
+  );
+};
+
 
 export const SignOutForm = () => {
   return (
