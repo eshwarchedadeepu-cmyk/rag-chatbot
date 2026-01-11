@@ -49,10 +49,7 @@ export function Chat({
 }) {
   const router = useRouter();
 
-  const { visibilityType } = useChatVisibility({
-    chatId: id,
-    initialVisibilityType,
-  });
+ 
 
   const { mutate } = useSWRConfig();
 
